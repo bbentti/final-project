@@ -1,0 +1,137 @@
+h1 {
+    color: rgb(54, 64, 78);
+    font-family: 'lato', sans-serif;
+    font-size: 50px;
+    margin-left: 51px;
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    width: 300px;
+    height: 500px;
+    float: left;
+    margin-left: 30px;
+}
+
+.sidebar h3 {
+    color: rgb(54, 64, 78);
+    font-family: 'lato', sans-serif;
+    margin-left: 25px;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.genderButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.genderButtons button {
+    background-color: white;
+    color: rgb(54, 64, 78);
+    width: 150px;
+    margin: 0px 0px 10px 25px;
+    border: 1px solid rgb(195, 203, 214);
+}
+
+.genderButtons button:hover {
+    background-color: rgb(220, 230, 243);
+    height: 25px;
+}
+
+.sidebar h4 {
+    color: rgb(54, 64, 78);
+    font-family: 'lato', sans-serif;
+    margin: 20px 0px 10px 25px;
+}
+
+.abcButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px 25px 10px 25px
+}
+
+.abcButtons button {
+    background-color: white;
+    font-family: 'lato', sans-serif;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.nullButt {
+    color: rgb(195, 203, 214);
+}
+
+#alphaButt {
+    color: rgb(54, 64, 78);
+}
+
+#alphaButt:hover {
+    font-size: 30px;
+}
+
+.vertLine {
+    background-color: rgb(195, 203, 214);
+    border: none;
+    width: 2px;
+    height: 650px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+}
+
+.npcTileFront{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.npcTileFront div{
+    border: 1px solid rgb(195, 203, 214);
+    width: 600px;
+    height: 420px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px rgba(195, 203, 214, 0.726);
+}
+
+.npcTileFront img {
+    float: right;
+    height: 400px;
+    width: auto;
+    vertical-align: center;
+}
+
+.npcTileFront h1, .npcTileFront h2, .npcTileFront h3, .npcTileFront p {
+    font-family: 'lato', sans-serif;
+    color: rgb(54, 64, 78);
+    padding-left: 40px;
+}
+
+.npcTileFront h1 {
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+
+.npcTileFront h2 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.npcTileFront h3 {
+    font-size: 16px;
+    margin: 0px 0px 5px 0px;
+    font-weight: lighter;
+}
+
+.npcTileBack {
+    background-color: hotpink;
+    transform: rotateY( 180deg );
+}
